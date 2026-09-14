@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&family=Tajawal:wght@300;400;500;700;800;900&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-background: hsl(199 60% 4%);
+  --color-foreground: hsl(0 0% 100%);
+  --color-card: hsl(199 45% 6%);
+  --color-card-foreground: hsl(0 0% 100%);
+  --color-popover: hsl(199 45% 6%);
+  --color-popover-foreground: hsl(0 0% 100%);
+  --color-primary: hsl(199 100% 62%);
+  --color-primary-foreground: hsl(0 0% 4%);
+  --color-secondary: hsl(199 100% 62%);
+  --color-secondary-foreground: hsl(0 0% 4%);
+  --color-muted: hsl(199 35% 12%);
+  --color-muted-foreground: hsl(0 0% 88%);
+  --color-accent: hsl(199 100% 62%);
+  --color-accent-foreground: hsl(0 0% 4%);
+  --color-destructive: hsl(0 84% 60%);
+  --color-destructive-foreground: hsl(0 0% 100%);
+  --color-border: hsl(199 70% 22%);
+  --color-input: hsl(199 70% 22%);
+  --color-ring: hsl(199 100% 62%);
+  --color-neon-green: hsl(199 100% 62%);
+  --color-neon-purple: hsl(199 100% 62%);
+  --color-neon-blue: hsl(195 100% 50%);
+  --color-cyber-dark: hsl(199 55% 4%);
+  --color-cyber-darker: hsl(199 60% 2%);
+  --color-cyber-card: hsl(199 45% 8%);
+  --font-display: Orbitron, Tajawal, sans-serif;
+  --font-sans: Tajawal, 'JetBrains Mono', sans-serif;
+  --font-mono: 'JetBrains Mono', Consolas, monospace;
+  --font-mono-en: 'JetBrains Mono', Consolas, monospace;
+}
+
+:root {
+  --neon-green: 199 100% 62%;
+  --neon-purple: 199 100% 62%;
+  --neon-blue: 195 100% 50%;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    direction: rtl;
+  }
+
+  body {
+    background-color: hsl(199 60% 4%);
+    color: hsl(0 0% 100%);
+    font-family: Tajawal, 'JetBrains Mono', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background: hsl(199 100% 62% / 0.3);
+    color: hsl(0 0% 100%);
+  }
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: hsl(199 60% 2%);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: hsl(199 100% 62% / 0.3);
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(199 100% 62% / 0.5);
+  }
+}
+
+@layer components {
+  /* ===== cyber effects ===== */
+  .cyber-btn {
+    position: relative;
+    overflow: hidden;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background: transparent;
+    border: 2px solid hsl(199 100% 62%);
+    color: hsl(199 100% 62%);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .cyber-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background: hsl(199 100% 62%);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+  }
+  .cyber-btn:hover {
+    color: hsl(0 0% 4%);
+    box-shadow:
+      0 0 20px hsl(199 100% 62% / 0.5),
+      0 0 40px hsl(199 100% 62% / 0.3);
+  }
+  .cyber-btn:hover::before {
+    transform: scaleX(1);
+    transform-origin: right;
+  }
+  /* هوية ثلاثية ثابتة: تركوازي + أبيض + أسود مزرق */
+
+  .cyber-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    background: hsl(199 45% 8%);
+    border: 1px solid hsl(199 100% 62% / 0.2);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .cyber-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+    background: linear-gradient(
+      135deg,
+      hsl(199 100% 62% / 0.12),
+      transparent
+    );
+  }
+  .cyber-card:hover {
+    border-color: hsl(199 100% 62% / 0.6);
+    box-shadow:
+      0 0 20px hsl(199 100% 62% / 0.3),
+      0 0 40px hsl(199 100% 62% / 0.2);
+    transform: translateY(-4px);
+  }
+  .cyber-card:hover::before {
+    opacity: 1;
+  }
+
+  .glow-green {
+    text-shadow:
+      0 0 10px hsl(199 100% 62% / 0.8),
+      0 0 20px hsl(199 100% 62% / 0.6),
+      0 0 30px hsl(199 100% 62% / 0.4);
+  }
+  .glow-pink {
+    text-shadow:
+      0 0 10px rgb(244 114 182 / 0.8),
+      0 0 20px rgb(244 114 182 / 0.6),
+      0 0 30px rgb(244 114 182 / 0.4);
+  }
+  .text-gradient {
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(
+      135deg,
+      hsl(199 100% 62%),
+      hsl(199 100% 85%)
+    );
+  }
+
+  .bg-cyber-grid {
+    background-image:
+      linear-gradient(hsl(199 100% 62% / 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(199 100% 62% / 0.1) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+  .bg-gradient-radial {
+    background: radial-gradient(
+      ellipse at center,
+      transparent 0%,
+      hsl(199 60% 4% / 0.5) 50%,
+      hsl(199 60% 4%) 100%
+    );
+  }
+  .terminal-cursor {
+    margin-right: 0.25rem;
+    display: inline-block;
+    height: 1.5rem;
+    width: 0.75rem;
+    background: hsl(199 100% 62%);
+    animation: blink 1s step-end infinite;
+    vertical-align: middle;
+  }
+
+  /* شارة زجاجية بلمعة متحركة (ستايل 2026) */
+  .badge-shine {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+  }
+  .badge-shine::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(105deg, transparent 40%, rgb(255 255 255 / 0.55) 50%, transparent 60%);
+    transform: translateX(-150%);
+    animation: shine-sweep 3.2s ease-in-out infinite;
+    pointer-events: none;
+  }
+
+  .level-badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    padding: 0.2rem 0.7rem;
+    border-radius: 999px;
+    border: 1px solid;
+    white-space: nowrap;
+  }
+  .level-beginner {
+    color: #4ade80;
+    border-color: #4ade8066;
+    background: #4ade8014;
+  }
+  .level-intermediate {
+    color: #ffbf00;
+    border-color: #ffbf00aa;
+    background: #ffbf0014;
+  }
+  .level-advanced {
+    color: #f87171;
+    border-color: rgb(239 68 68 / 0.5);
+    background: rgb(239 68 68 / 0.1);
+  }
+
+  .animate-fade-in-up {
+    animation: fade-in-up 0.6s ease-out forwards;
+  }
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  .animate-pulse-glow {
+    animation: pulseGlow 2s ease-in-out infinite;
+  }
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+@keyframes pulseGlow {
+  0%,
+  100% {
+    box-shadow: 0 0 20px hsl(199 100% 62% / 0.3);
+  }
+  50% {
+    box-shadow:
+      0 0 40px hsl(199 100% 62% / 0.6),
+      0 0 60px hsl(199 100% 62% / 0.3);
+  }
+}
+@keyframes shine-sweep {
+  0%,
+  55% {
+    transform: translateX(-150%);
+  }
+  100% {
+    transform: translateX(150%);
+  }
+}
+
+/* شعاع حدودي دوّار للكارد المميز (ستايل 2026) */
+@property --beam-angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+.recommended-beam {
+  background: conic-gradient(from var(--beam-angle),
+    transparent 0deg,
+    transparent 295deg,
+    rgb(255 178 91 / 0.9) 328deg,
+    #ffe3ba 344deg,
+    rgb(255 142 0 / 0.9) 360deg);
+  animation: beam-spin 4.5s linear infinite;
+}
+@keyframes beam-spin {
+  to {
+    --beam-angle: 360deg;
+  }
+}
+.animate-badge-float {
+  animation: badge-float 3s ease-in-out infinite;
+}
+@keyframes badge-float {
+  0%,
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(-5px);
+  }
+}
