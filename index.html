@@ -36,6 +36,50 @@
         }
       })(window.location);
     </script>
+    <script>
+      // Auto-recover from stale cached HTML: after a deploy the old hashed
+      // bundle no longer exists, which leaves a blank page. If a <script>/<link>
+      // fails to load, reload once with a cache-busting query to fetch fresh HTML.
+      (function () {
+        var KEY = 'ggh_bundle_retry';
+        function busted() {
+          var seen = false;
+          try { seen = sessionStorage.getItem(KEY) === location.host; } catch (e) {}
+          return seen;
+        }
+        function reloadFresh() {
+          if (busted()) return;
+          try { sessionStorage.setItem(KEY, location.host); } catch (e) {}
+          var u = new URL(location.href);
+          u.searchParams.set('_cb', Date.now());
+          location.replace(u.pathname + u.search + u.hash);
+        }
+        window.addEventListener(
+          'error',
+          function (e) {
+            var t = e.target;
+            if (t && t.tagName === 'SCRIPT' && t.src) reloadFresh();
+            else if (t && t.tagName === 'LINK' && t.rel === 'stylesheet') reloadFresh();
+          },
+          true
+        );
+        window.addEventListener('load', function () {
+          setTimeout(function () {
+            var root = document.getElementById('root');
+            if (root && root.firstChild) {
+              try { sessionStorage.removeItem(KEY); } catch (e) {}
+              var u = new URL(location.href);
+              if (u.searchParams.has('_cb')) {
+                u.searchParams.delete('_cb');
+                history.replaceState(null, '', u.pathname + u.search + u.hash);
+              }
+            } else {
+              reloadFresh();
+            }
+          }, 1200);
+        });
+      })();
+    </script>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
