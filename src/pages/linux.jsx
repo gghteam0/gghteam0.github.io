@@ -35,14 +35,14 @@ export function LinuxCourses() {
   return (
     <div className="min-h-screen">
       <PageHero
-        badge="نظام لينكس"
+        badge="أنظمة التشغيل"
         badgeIcon="Terminal"
-        title="دورات لينكس"
-        desc="أفضل الدورات العربية لإتقان نظام لينكس ."
+        title="دورات أنظمة التشغيل"
+        desc="أفضل الدورات العربية لإتقان أنظمة التشغيل ."
       />
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <SectionHead title="الدورات" subtitle="دورات عربية متميزة لتعلم نظام لينكس من الصفر حتى الاحتراف ." glowColor="green" />
+          <SectionHead title="الدورات" subtitle="دورات عربية متميزة لتعلم أنظمة التشغيل من الصفر حتى الاحتراف ." glowColor="green" />
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {linuxCourses.map((c, i) => (
               <VideoCard key={c.link} {...c} btnLabel="مشاهدة الدورة" delay={i} />
