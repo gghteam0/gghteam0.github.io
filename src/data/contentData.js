@@ -38,7 +38,7 @@ export const networkingCourses = [
 ]
 
 export const linuxCourses = [
-  { title: "دورة +Linux - ياسر عمار", description: "دورة شاملة في أساسيات نظام لينكس .", link: "https://www.youtube.com/watch?v=KEZXjuWLoIA&list=PLj6pcGpLuSKMMSXy_RE_TRitc-Ez_LXww&index=5", type: "دورة يوتيوب" },
+  { title: "دورة Linux+ - ياسر عمار", description: "دورة شاملة في أساسيات نظام لينكس .", link: "https://www.youtube.com/watch?v=KEZXjuWLoIA&list=PLj6pcGpLuSKMMSXy_RE_TRitc-Ez_LXww&index=5", type: "دورة يوتيوب" },
 ]
 
 export const linuxDistros = [
