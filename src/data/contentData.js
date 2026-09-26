@@ -35,6 +35,7 @@ export const programmingCourses = [
 
 export const networkingCourses = [
   { title: "دورة CCNA – م . سجاد غفوري", description: "مناسبة للمبتدئين لفهم المفاهيم الأساسية قبل الدخول لمجال الأمن السيبراني", link: "https://www.youtube.com/watch?v=TrQljnE49-o&list=PLAqaqJU4wzYU_6EIzVoxHghQILgyY--yf", type: "سلسلة يوتيوب" },
+  { title: "دورة Network+ – ياسر عمار", description: "مناسبة للمبتدئين لفهم المفاهيم الأساسية .", link: "https://www.youtube.com/watch?v=ZTGcSLBpAXU&list=PLj6pcGpLuSKMMSXy_RE_TRitc-Ez_LXww&index=2", type: "سلسلة يوتيوب" },
 ]
 
 export const linuxCourses = [
