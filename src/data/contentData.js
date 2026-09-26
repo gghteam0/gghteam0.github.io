@@ -1,7 +1,7 @@
 ﻿// محتوى الصفحات
 export const roadmapBeginner = [
   { title: "أساسيات الأمن السيبراني", description: "تعلم أساسيات الحاسوب والأمان .", link: "/roadmap/cybersecurity-basics", icon: "Shield", isInternal: true },
-  { title: "أنظمة التشغيل", description: "أنظمة التشغيل هي البيئة التي تعمل بها البرمجيات عموماً .", link: "/roadmap/linux", icon: "Terminal", isInternal: true },
+  { title: "أنظمة التشغيل", description: "أنظمة التشغيل هي البيئة التي تعمل بها البرمجيات عموماً .", link: "/roadmap/os", icon: "Terminal", isInternal: true },
   { title: "البرمجة", description: "تعلم أساسيات البرمجة و بايثون للأمن السيبراني و كتابة السكربتات .", link: "/roadmap/programming", icon: "Terminal", isInternal: true },
   { title: "الشبكات", description: "فهم أساسيات الشبكات .", link: "/roadmap/networking", icon: "Network", isInternal: true },
 ]

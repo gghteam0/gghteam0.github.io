@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx'
@@ -34,9 +34,12 @@ export default function App() {
           <Route path="/roadmap" element={<Roadmap />} />
           <Route path="/roadmap/programming" element={<Programming />} />
           <Route path="/roadmap/networking" element={<Networking />} />
-          <Route path="/roadmap/linux" element={<LinuxMain />} />
-          <Route path="/roadmap/linux/courses" element={<LinuxCourses />} />
-          <Route path="/roadmap/linux/what-is-linux" element={<WhatIsLinux />} />
+          <Route path="/roadmap/os" element={<LinuxMain />} />
+          <Route path="/roadmap/os/courses" element={<LinuxCourses />} />
+          <Route path="/roadmap/os/what-is-linux" element={<WhatIsLinux />} />
+          <Route path="/roadmap/linux" element={<Navigate to="/roadmap/os" replace />} />
+          <Route path="/roadmap/linux/courses" element={<Navigate to="/roadmap/os/courses" replace />} />
+          <Route path="/roadmap/linux/what-is-linux" element={<Navigate to="/roadmap/os/what-is-linux" replace />} />
           <Route path="/roadmap/cybersecurity-basics" element={<CyberBasics />} />
           <Route path="/roadmap/pentest-basics" element={<PentestBasics />} />
           <Route path="/roadmap/web-pentest" element={<WebPentestMain />} />

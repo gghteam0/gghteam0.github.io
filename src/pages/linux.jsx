@@ -3,8 +3,8 @@ import { InternalCards } from './courses.jsx'
 import { linuxCourses, linuxDistros, webPentestResources } from '../data/contentData.js'
 
 const linuxSections = [
-  { title: 'الدورات', description: 'دورات شاملة لتعلم نظام لينكس من الصفر حتى الاحتراف .', link: '/roadmap/linux/courses', icon: 'Book' },
-  { title: 'ما هو نظام لينكس ؟', description: 'تعرف على نظام لينكس .', link: '/roadmap/linux/what-is-linux', icon: 'CircleHelp' },
+  { title: 'الدورات', description: 'دورات شاملة لتعلم نظام لينكس من الصفر حتى الاحتراف .', link: '/roadmap/os/courses', icon: 'Book' },
+  { title: 'ما هو نظام لينكس ؟', description: 'تعرف على نظام لينكس .', link: '/roadmap/os/what-is-linux', icon: 'CircleHelp' },
 ]
 
 const webSections = [
@@ -18,12 +18,12 @@ export function LinuxMain() {
       <PageHero
         badge="المستوى المبتدئ"
         badgeIcon="Terminal"
-        title="نظام لينكس"
-        desc="إتقان نظام لينكس أمر أساسي في عالم الأمن السيبراني ."
+        title="أنظمة التشغيل"
+        desc="إتقان أنظمة التشغيل أمر أساسي في عالم الأمن السيبراني ."
       />
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <SectionHead title="أقسام التعلم" subtitle="اختر القسم المناسب لبدء رحلتك في تعلم نظام لينكس ." glowColor="green" />
+          <SectionHead title="أقسام التعلم" subtitle="اختر القسم المناسب لبدء رحلتك في تعلم أنظمة التشغيل ." glowColor="green" />
           <InternalCards cards={linuxSections} />
         </div>
       </section>
