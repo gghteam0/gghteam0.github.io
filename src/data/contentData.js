@@ -29,7 +29,7 @@ export const labs = [
 ]
 
 export const programmingCourses = [
-    { title: "Programming Advices", description: "موقع عربي شامل لتعلم البرمجة من الصفر مع دورات مجانية و مدفوعة في لغات متعددة .", link: "https://programmingadvices.com/", icon: "BookOpen", type: "موقع تعليمي", recommended: true },
+  { title: "دورة سي++ | يحيي تك", description: "دورة شاملة لتعلم أساسيات لغة سي++ .", link: "https://www.youtube.com/watch?v=07AC2Syf4Yg", type: "دورة يوتيوب" },
   { title: "تعلم بايثون | أسامة الزيرو", description: "دورة شاملة لتعلم أساسيات لغة بايثون .", link: "https://www.youtube.com/watch?v=mvZHDpCHphk&list=PLDoPjvoNmBAyE_gei5d18qkfIe-Z8mocs", type: "سلسلة يوتيوب" },
 ]
 
