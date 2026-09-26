@@ -33,7 +33,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center gap-2 group">
-            <img src="logo.png" alt="GGH Team" className="h-12 w-auto rounded object-cover mix-blend-screen transition-all duration-300 group-hover:drop-shadow-[0_0_10px_hsl(var(--neon-green))]" />
+            <img src="/logo.png" alt="GGH Team" className="h-12 w-auto rounded object-cover mix-blend-screen transition-all duration-300 group-hover:drop-shadow-[0_0_10px_hsl(var(--neon-green))]" />
             <span dir="ltr" className="font-display text-lg font-bold text-white">
               GGH Team
             </span>

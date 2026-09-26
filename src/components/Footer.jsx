@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <Link to="/" className="flex items-center gap-2 mb-4">
-              <img src="logo.png" alt="GGH Team" className="h-10 w-auto rounded object-cover mix-blend-screen" />
+              <img src="/logo.png" alt="GGH Team" className="h-10 w-auto rounded object-cover mix-blend-screen" />
               <span dir="ltr" className="font-display text-xl font-bold text-white">
                 GGH Team
               </span>
