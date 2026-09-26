@@ -43,9 +43,11 @@ export function LinuxCourses() {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <SectionHead title="الدورات" subtitle="دورات عربية متميزة لتعلم أنظمة التشغيل من الصفر حتى الاحتراف ." glowColor="green" />
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {linuxCourses.map((c, i) => (
-              <VideoCard key={c.link} {...c} btnLabel="مشاهدة الدورة" delay={i} />
+              <div key={c.link} className={`h-full ${i === 0 ? 'md:col-start-1' : 'md:col-start-3'}`}>
+                <VideoCard {...c} btnLabel="مشاهدة الدورة" delay={i} />
+              </div>
             ))}
           </div>
         </div>
