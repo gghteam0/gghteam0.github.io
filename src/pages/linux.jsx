@@ -3,7 +3,7 @@ import { InternalCards } from './courses.jsx'
 import { linuxCourses, linuxDistros, webPentestResources } from '../data/contentData.js'
 
 const linuxSections = [
-  { title: 'الدورات', description: 'دورات شاملة لتعلم نظام لينكس من الصفر حتى الاحتراف .', link: '/roadmap/os/courses', icon: 'Book' },
+  { title: 'الدورات', description: 'تعلم أنظمة التشغيل من الصفر حتى الاحتراف .', link: '/roadmap/os/courses', icon: 'Book' },
   { title: 'ما هو نظام لينكس ؟', description: 'تعرف على نظام لينكس .', link: '/roadmap/os/what-is-linux', icon: 'CircleHelp' },
 ]
 
