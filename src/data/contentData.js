@@ -51,8 +51,8 @@ export const linuxDistros = [
 ]
 
 export const basicsCourses = [
-  { title: "اساسيات الكمبيوتر - ياسر عمار", description: "دورة أساسيات الحاسوب العامة - تغطي كل ما تحتاجه لفهم أساسيات الحاسوب و الأجهزة .", link: "https://www.youtube.com/watch?v=8CUwUXMgOQ4&list=PLj6pcGpLuSKMMSXy_RE_TRitc-Ez_LXww&index=2", type: "دورة يوتيوب" },
-  { title: "دورة Security+ - ياسر عمار", description: "أساسيات الأمان - دورة شاملة لفهم مبادئ الأمن السيبراني .", link: "https://www.youtube.com/watch?v=9SFkAZpCy_Y&list=PLj6pcGpLuSKMMSXy_RE_TRitc-Ez_LXww&index=3", type: "دورة يوتيوب" },
+  { title: "اساسيات الكمبيوتر - ياسر عمار", description: "كل ما تحتاجه لفهم أساسيات الحاسوب و الأجهزة .", link: "https://www.youtube.com/watch?v=8CUwUXMgOQ4&list=PLj6pcGpLuSKMMSXy_RE_TRitc-Ez_LXww&index=2", type: "دورة يوتيوب" },
+  { title: "دورة Security+ - ياسر عمار", description: "دورة شاملة لفهم مبادئ الأمن السيبراني .", link: "https://www.youtube.com/watch?v=9SFkAZpCy_Y&list=PLj6pcGpLuSKMMSXy_RE_TRitc-Ez_LXww&index=3", type: "دورة يوتيوب" },
 ]
 
 export const pentestCourses = [
