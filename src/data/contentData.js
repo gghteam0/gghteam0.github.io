@@ -51,7 +51,7 @@ export const linuxDistros = [
 ]
 
 export const basicsCourses = [
-  { title: "دورة CompTIA A+ - سامح رمضان", description: "دورة أساسيات الحاسوب العامة - تغطي كل ما تحتاجه لفهم أساسيات الحاسوب و الأجهزة .", link: "https://www.youtube.com/watch?v=zIpF33NCgrA&list=PLH-n8YK76vIiDdOMRB-ylvns-_8Zl1euV", type: "سلسلة يوتيوب" },
+  { title: "دورة اساسيات الكمبيوتر - ياسر عمار", description: "دورة أساسيات الحاسوب العامة - تغطي كل ما تحتاجه لفهم أساسيات الحاسوب و الأجهزة .", link: "https://www.youtube.com/watch?v=8CUwUXMgOQ4&list=PLj6pcGpLuSKMMSXy_RE_TRitc-Ez_LXww&index=2", type: "سلسلة يوتيوب" },
   { title: "دورة Security+ - ياسر عمار", description: "أساسيات الأمان - دورة شاملة لفهم مبادئ الأمن السيبراني .", link: "https://www.youtube.com/watch?v=9SFkAZpCy_Y&list=PLj6pcGpLuSKMMSXy_RE_TRitc-Ez_LXww&index=3", type: "سلسلة يوتيوب" },
 ]
 
