@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Instagram, Youtube, Heart } from 'lucide-react'
-import { XLogo, TikTokLogo, TelegramLogo, SubstackLogo } from './ui.jsx'
+import { TikTokLogo, TelegramLogo, SubstackLogo } from './ui.jsx'
 
 export default function Footer() {
   const year = new Date().getFullYear()
@@ -44,9 +44,6 @@ export default function Footer() {
               </a>
               <a href="https://t.me/GlobalGrayHatTeam" target="_blank" rel="noopener noreferrer" className="p-2 rounded bg-muted/30 text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-300" aria-label="Telegram">
                 <TelegramLogo className="w-5 h-5" />
-              </a>
-              <a href="https://x.com/gghteam1" target="_blank" rel="noopener noreferrer" className="p-2 rounded bg-muted/30 text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-300" aria-label="X">
-                <XLogo className="w-5 h-5" />
               </a>
               <a href="https://www.tiktok.com/@gghteam1" target="_blank" rel="noopener noreferrer" className="p-2 rounded bg-muted/30 text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-300" aria-label="TikTok">
                 <TikTokLogo className="w-5 h-5" />

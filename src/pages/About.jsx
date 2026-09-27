@@ -1,5 +1,5 @@
 import { Heart, ShieldCheck, Instagram, Youtube } from 'lucide-react'
-import { XLogo, TikTokLogo, TelegramLogo, SubstackLogo } from '../components/ui.jsx'
+import { TikTokLogo, TelegramLogo, SubstackLogo } from '../components/ui.jsx'
 
 export default function About() {
   return (
@@ -82,9 +82,6 @@ export default function About() {
                   </a>
                   <a href="https://t.me/GlobalGrayHatTeam" target="_blank" rel="noopener noreferrer" title="Telegram" aria-label="Telegram" className="flex items-center justify-center w-12 h-12 rounded-xl border border-primary/30 bg-primary/5 hover:bg-primary/10 hover:border-primary/50 transition-all duration-300 group">
                     <TelegramLogo className="w-6 h-6 text-primary group-hover:scale-110 transition-transform" />
-                  </a>
-                  <a href="https://x.com/gghteam1" target="_blank" rel="noopener noreferrer" title="X" aria-label="X" className="flex items-center justify-center w-12 h-12 rounded-xl border border-primary/30 bg-primary/5 hover:bg-primary/10 hover:border-primary/50 transition-all duration-300 group">
-                    <XLogo className="w-6 h-6 text-primary group-hover:scale-110 transition-transform" />
                   </a>
                   <a href="https://substack.com/@gghteam" target="_blank" rel="noopener noreferrer" title="Substack" aria-label="Substack" className="flex items-center justify-center w-12 h-12 rounded-xl border border-primary/30 bg-primary/5 hover:bg-primary/10 hover:border-primary/50 transition-all duration-300 group">
                     <SubstackLogo className="w-6 h-6 text-primary group-hover:scale-110 transition-transform" />
