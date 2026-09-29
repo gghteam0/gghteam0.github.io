@@ -61,7 +61,7 @@ export const pentestCourses = [
   { title: "دورة OSCP+ - من Security Jordan", description: "دورة OSCP+ لاختبار الاختراق الاحترافي .", link: "https://www.youtube.com/watch?v=2rN9-SIT1g0&list=PLBdyyeW_Z41BDd5Ktx351oAM_FecvMtgn&index=1", type: "سلسلة يوتيوب" },
   { title: "دورة OSINT - ياسر عمار", description: "شرح عن المخابرات مفتوحة المصدر .", link: "https://youtu.be/vDwYryKIGzw?si=sSdWmPPiQsq3CRdc", type: "دورة احترافية" },
   { title: "أداة Maltego - ياسر عمار", description: "أداة مختصة بجمع المعلومات بشكل احترافي .", link: "https://www.youtube.com/watch?v=-_eZtSEMMvA&list=PLj6pcGpLuSKOrYgiucwTOjgODjdENGvL4&index=4", icon: "Youtube", type: "دورة احترافية" },
-  { title: "أداة Nmap - ياسر عمار", description: "فحص الانظمة و الشبكات باستعمال أداة الفحص Nmap", link: "https://youtu.be/mPxIReEXAUQ", icon: "Youtube", type: "دورة احترافية" },
+  { title: "أداة Nmap - ياسر عمار", description: "فحص الانظمة و الشبكات باستعمال Nmap .", link: "https://youtu.be/mPxIReEXAUQ", icon: "Youtube", type: "دورة احترافية" },
 ]
 
 export const webPentestResources = [
