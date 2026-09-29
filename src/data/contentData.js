@@ -58,7 +58,7 @@ export const basicsCourses = [
 
 export const pentestCourses = [
   { title: "دورة eJPTv2 - ياسر عمار", description: "دورة احترافية للبداية في اختبار الاختراق .", link: "https://www.youtube.com/watch?v=3vpW_ZlH4d8", icon: "Youtube", type: "دورة احترافية" },
-  { title: "دورة OSCP+ - أحمد عطية", description: "دورة OSCP+ من المهندس أحمد عطية لاختبار الاختراق الاحترافي .", link: "https://www.youtube.com/watch?v=VAV0Z8GGT9g&list=PL5dZpxpUkHPM0HMefFCFjGeLAwyty4LYm", type: "سلسلة يوتيوب" },
+  { title: "دورة OSCP+ - Security Jordan", description: "دورة OSCP+ لاختبار الاختراق الاحترافي .", link: "https://www.youtube.com/watch?v=2rN9-SIT1g0&list=PLBdyyeW_Z41BDd5Ktx351oAM_FecvMtgn&index=1", type: "سلسلة يوتيوب" },
 ]
 
 export const webPentestResources = [
