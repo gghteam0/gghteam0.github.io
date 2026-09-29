@@ -1,14 +1,14 @@
 ﻿// محتوى الصفحات
 export const roadmapBeginner = [
-  { title: "أساسيات الأمن السيبراني", description: "تعلم أساسيات الحاسوب والأمان .", link: "/roadmap/cybersecurity-basics", icon: "Shield", isInternal: true },
+  { title: "أساسيات الأمن السيبراني", description: "تعلم أساسيات الحاسوب و الأمان .", link: "/roadmap/cybersecurity-basics", icon: "Shield", isInternal: true },
   { title: "أنظمة التشغيل", description: "أنظمة التشغيل هي البيئة التي تعمل بها البرمجيات عموماً .", link: "/roadmap/os", icon: "Terminal", isInternal: true },
   { title: "البرمجة", description: "تعلم أساسيات البرمجة و بايثون للأمن السيبراني و كتابة السكربتات .", link: "/roadmap/programming", icon: "Terminal", isInternal: true },
   { title: "الشبكات", description: "فهم أساسيات الشبكات .", link: "/roadmap/networking", icon: "Network", isInternal: true },
 ]
 
 export const roadmapIntermediate = [
-  { title: "البداية في اختبار الاختراق", description: "ابدأ رحلتك في اختبار الاختراق مع دورات eJPT و OSCP.", link: "/roadmap/pentest-basics", icon: "Target", isInternal: true },
-  { title: "اختبار اختراق الويب", description: "تعلم تقنيات اختبار اختراق تطبيقات الويب واكتشاف الثغرات.", link: "/roadmap/web-pentest", icon: "Globe", isInternal: true },
+  { title: "البداية في اختبار الاختراق", description: "ابدأ رحلتك في اختبار الاختراق .", link: "/roadmap/pentest-basics", icon: "Target", isInternal: true },
+  { title: "اختبار اختراق الويب", description: "تعلم تقنيات اختبار اختراق تطبيقات الويب و اكتشاف الثغرات .", link: "/roadmap/web-pentest", icon: "Globe", isInternal: true },
   { title: "Active Directory", description: "تعلم أساسيات Active Directory و اختراق بيئات Windows المؤسسية .", link: "/roadmap/active-directory", icon: "Server", isInternal: true },
 ]
 
@@ -17,7 +17,7 @@ export const roadmapBlue = [
 ]
 
 export const roadmapResources = [
-  { title: "مواقع مفيدة", description: "مجموعة مختارة من المواقع المفيدة في مجال الأمن السيبراني و اختبار الاختراق .", link: "/resources/websites", icon: "Book", isInternal: true },
+  { title: "مواقع مفيدة", description: "مجموعة مختارة من المواقع المفيدة في مجال الأمن السيبراني .", link: "/resources/websites", icon: "Book", isInternal: true },
   { title: "قنوات يوتيوب مفيدة", description: "أفضل قنوات يوتيوب لتعلم الأمن السيبراني .", link: "/resources/youtube-channels", icon: "Youtube", isInternal: true },
 ]
 
