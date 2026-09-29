@@ -60,7 +60,7 @@ export const pentestCourses = [
   { title: "دورة eJPTv2 - ياسر عمار", description: "دورة احترافية للبداية في اختبار الاختراق .", link: "https://www.youtube.com/watch?v=3vpW_ZlH4d8", icon: "Youtube", type: "دورة احترافية" },
   { title: "دورة OSCP+ - من Security Jordan", description: "دورة OSCP+ لاختبار الاختراق الاحترافي .", link: "https://www.youtube.com/watch?v=2rN9-SIT1g0&list=PLBdyyeW_Z41BDd5Ktx351oAM_FecvMtgn&index=1", type: "سلسلة يوتيوب" },
   { title: "دورة OSINT - ياسر عمار", description: "شرح عن المخابرات مفتوحة المصدر .", link: "https://www.youtube.com/watch?v=FS5KiAvjDUo", type: "دورة احترافية" },
-  { title: "دورة اداة Maltego - ياسر عمار", description: "اداة مختصة بجمع المعلومات بشكل احترافي و خطير", link: "https://www.youtube.com/watch?v=-_eZtSEMMvA&list=PLj6pcGpLuSKOrYgiucwTOjgODjdENGvL4&index=4", icon: "Youtube", type: "دورة احترافية" },
+  { title: "اداة Maltego - ياسر عمار", description: "اداة مختصة بجمع المعلومات بشكل احترافي .", link: "https://www.youtube.com/watch?v=-_eZtSEMMvA&list=PLj6pcGpLuSKOrYgiucwTOjgODjdENGvL4&index=4", icon: "Youtube", type: "دورة احترافية" },
 ]
 
 export const webPentestResources = [
