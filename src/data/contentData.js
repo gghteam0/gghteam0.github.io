@@ -54,12 +54,12 @@ export const linuxDistros = [
 export const basicsCourses = [
   { title: "اساسيات الكمبيوتر - ياسر عمار", description: "كل ما تحتاجه لفهم أساسيات الحاسوب .", link: "https://www.youtube.com/watch?v=8CUwUXMgOQ4&list=PLj6pcGpLuSKMMSXy_RE_TRitc-Ez_LXww&index=2", type: "دورة يوتيوب" },
   { title: "دورة Security+ - ياسر عمار", description: "دورة شاملة لفهم مبادئ الأمن السيبراني .", link: "https://www.youtube.com/watch?v=9SFkAZpCy_Y&list=PLj6pcGpLuSKMMSXy_RE_TRitc-Ez_LXww&index=3", type: "دورة يوتيوب" },
-  { title: "دورة OSINT - ياسر عمار", description: "شرح عن المخابرات مفتوحة المصدر .", link: "https://www.youtube.com/watch?v=FS5KiAvjDUo", type: "دورة احترافية" },
 ]
 
 export const pentestCourses = [
   { title: "دورة eJPTv2 - ياسر عمار", description: "دورة احترافية للبداية في اختبار الاختراق .", link: "https://www.youtube.com/watch?v=3vpW_ZlH4d8", icon: "Youtube", type: "دورة احترافية" },
   { title: "دورة OSCP+ - من Security Jordan", description: "دورة OSCP+ لاختبار الاختراق الاحترافي .", link: "https://www.youtube.com/watch?v=2rN9-SIT1g0&list=PLBdyyeW_Z41BDd5Ktx351oAM_FecvMtgn&index=1", type: "سلسلة يوتيوب" },
+  { title: "دورة OSINT - ياسر عمار", description: "شرح عن المخابرات مفتوحة المصدر .", link: "https://www.youtube.com/watch?v=FS5KiAvjDUo", type: "دورة احترافية" },
 ]
 
 export const webPentestResources = [
