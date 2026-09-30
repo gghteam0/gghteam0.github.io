@@ -103,7 +103,6 @@ export const youtubeChannels = [
   { name: "NetworkChuck", description: "قناة رائعة لتعلم الشبكات و الأمن السيبراني بطريقة ممتعة .", url: "https://www.youtube.com/@NetworkChuck" },
   { name: "John Hammond", description: "محتوى متنوع في الأمن السيبراني و CTF و البرمجة .", url: "https://www.youtube.com/@_JohnHammond" },
   { name: "IppSec", description: "شروحات تفصيلية لحل تحديات Hack The Box .", url: "https://www.youtube.com/@ippsec" },
-  { name: "HackerSploit", description: "دروس في اختبار الاختراق و الأمن السيبراني .", url: "https://www.youtube.com/@HackerSploit" },
   { name: "The Cyber Mentor", description: "دورات شاملة في اختبار الاختراق الأخلاقي .", url: "https://www.youtube.com/@TCMSecurityAcademy" },
   { name: "LiveOverflow", description: "محتوى متقدم في أمن التطبيقات و الثغرات الأمنية .", url: "https://www.youtube.com/@LiveOverflow" },
 ]
