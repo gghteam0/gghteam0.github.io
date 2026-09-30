@@ -72,7 +72,9 @@ export function YoutubeChannels() {
           <SectionHead title="قنوات يوتيوب" subtitle="أفضل قنوات يوتيوب لتعلم الأمن السيبراني و اختبار الاختراق ." glowColor="green" />
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
             {youtubeChannels.map((c, i) => (
-              <ChannelCard key={c.url} {...c} delay={i} />
+              <div key={c.url} className={i === youtubeChannels.length - 1 && youtubeChannels.length % 3 === 2 ? 'lg:col-start-3' : ''}>
+                <ChannelCard {...c} delay={i} />
+              </div>
             ))}
           </div>
         </div>
