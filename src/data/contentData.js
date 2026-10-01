@@ -9,7 +9,6 @@ export const roadmapBeginner = [
 export const roadmapIntermediate = [
   { title: "البداية في اختبار الاختراق", description: "ابدأ رحلتك في اختبار الاختراق .", link: "/roadmap/pentest-basics", icon: "Target", isInternal: true },
   { title: "اختبار اختراق الويب", description: "تعلم تقنيات اختبار اختراق تطبيقات الويب و اكتشاف الثغرات .", link: "/roadmap/web-pentest", icon: "Globe", isInternal: true },
-  { title: "Active Directory", description: "تعلم أساسيات Active Directory و اختراق بيئات Windows المؤسسية .", link: "/roadmap/active-directory", icon: "Server", isInternal: true },
 ]
 
 export const roadmapBlue = [
