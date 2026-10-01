@@ -78,7 +78,7 @@ export const webBasicsCourses = [
 ]
 
 export const adCourses = [
-  { title: "أساسيات Active Directory - من Security Jordan", description: "دورة شاملة لفهم الـ Active Directory .", link: "https://youtu.be/I1W93eAjr7k?si=Olbht1wEZTeiPq7-", type: "دورة احترافية" },
+  { title: "Active Directory - من Security Jordan", description: "دورة شاملة لفهم الـ Active Directory .", link: "https://youtu.be/I1W93eAjr7k?si=Olbht1wEZTeiPq7-", type: "دورة احترافية" },
 ]
 
 export const malwareCourses = [
