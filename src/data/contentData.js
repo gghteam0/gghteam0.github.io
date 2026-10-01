@@ -78,7 +78,7 @@ export const webBasicsCourses = [
 ]
 
 export const adCourses = [
-  { title: "Active Directory 101 - إيهاب أبو عليا", description: "دورة شاملة لفهم Active Directory من المهندس إيهاب أبو عليا .", link: "https://www.youtube.com/watch?v=l5jryNnDhjk&list=PLyyAUp-Erl9WhBzp1ma2NzYQEb1nfQM1t", type: "سلسلة يوتيوب" },
+  { title: "أساسيات Active Directory - من Security Jordan", description: "دورة شاملة لفهم الـ Active Directory .", link: "https://youtu.be/I1W93eAjr7k?si=Olbht1wEZTeiPq7-", type: "دورة احترافية" },
 ]
 
 export const malwareCourses = [
