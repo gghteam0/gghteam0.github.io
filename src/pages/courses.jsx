@@ -14,7 +14,7 @@ export function CoursePage({ badge, badgeIcon = 'Terminal', title, desc, section
           <SectionHead title={sectionTitle} subtitle={sectionSubtitle} glowColor={blue ? 'purple' : 'green'} />
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {items.map((c, i) => (
-              <div key={c.link} className={`${i === 1 && items.length >= 2 ? 'lg:col-start-3' : ''}${i === 2 && items.length >= 3 ? ' lg:row-start-2 lg:col-start-1' : ''}${i === 3 && items.length >= 4 ? ' lg:row-start-2 lg:col-start-3' : ''}${i === 4 && items.length >= 5 ? ' lg:row-start-3 lg:col-start-1' : ''}${i === 5 && items.length === 6 ? ' lg:row-start-3 lg:col-start-3' : ''}${items.length === 1 ? 'lg:col-start-2' : ''}`}>
+              <div key={c.link} className={`${i === 1 && (items.length === 2 || items.length >= 4) ? 'lg:col-start-3' : ''}${i === 2 && items.length >= 4 ? ' lg:row-start-2 lg:col-start-1' : ''}${i === 3 && items.length >= 4 ? ' lg:row-start-2 lg:col-start-3' : ''}${i === 4 && items.length >= 5 ? ' lg:row-start-3 lg:col-start-1' : ''}${i === 5 && items.length === 6 ? ' lg:row-start-3 lg:col-start-3' : ''}${items.length === 1 ? 'lg:col-start-2' : ''}`}>
                 <VideoCard {...c} btnLabel={btnLabel} delay={i} />
               </div>
             ))}
