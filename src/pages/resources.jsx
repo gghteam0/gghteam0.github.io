@@ -3,9 +3,7 @@ import { PageHero, SectionHead, SiteCard, Bidi } from '../components/ui.jsx'
 import { websitesResources, youtubeChannels } from '../data/contentData.js'
 
 export function Websites() {
-  const isForum = (s) => s.category === 'منتدى' || s.category === 'منصة تدريب'
-  const sites = websitesResources.filter((s) => !isForum(s))
-  const forums = websitesResources.filter(isForum)
+  const sites = websitesResources
   return (
     <div className="min-h-screen">
       <PageHero
@@ -20,16 +18,6 @@ export function Websites() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
             {sites.map((s, i) => (
               <SiteCard key={s.link} {...s} delay={i} className={i === sites.length - 1 && sites.length % 3 === 1 ? 'lg:col-start-2' : ''} />
-            ))}
-          </div>
-        </div>
-      </section>
-      <section className="py-16">
-        <div className="container mx-auto px-4">
-          <SectionHead title="منتديات و منصات مفيدة" subtitle="مجتمعات عربية لتبادل الخبرات و التعلم في الأمن السيبراني ." glowColor="purple" />
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            {forums.map((s, i) => (
-              <SiteCard key={s.link} {...s} delay={i} theme="pink" />
             ))}
           </div>
         </div>

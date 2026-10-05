@@ -91,7 +91,6 @@ export const websitesResources = [
   { title: "GTFOBins", description: "قائمة بالأوامر التي يمكن استغلالها في نظام Unix / Linux", link: "https://gtfobins.github.io/", category: "أدوات Linux", color: "#bf0707" },
   { title: "CyberChef", description: "أداة ويب لتحليل و فك تشفير البيانات .", link: "https://gchq.github.io/CyberChef/", category: "أدوات تحليل", color: "#E0E0E0" },
   { title: "Awesome Hacking", description: "قائمة منسقة بأفضل الموارد في مجال الأمن السيبراني .", link: "https://github.com/Hack-with-Github/Awesome-Hacking", category: "موارد تعليمية", color: "#FFFFFF" },
-  { title: "منتدى شبكة شل العربية", description: "منتدى عربي للدراسة و لتبادل خبرات الأمن السيبراني و يجمع خبرات كبيرة", link: "https://sh3ll.cloud/xf2/", category: "منتدى", color: "#cc1515" },
 ]
 
 export const youtubeChannels = [
