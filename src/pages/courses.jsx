@@ -173,7 +173,7 @@ export function WebProgrammingBasics() {
       <PageHero
         badge="اختبار اختراق الويب"
         badgeIcon="Code"
-        title="أساسيات البرمجة لاختبار اختراق الويب"
+        title="البرمجة لاختبار اختراق الويب"
         desc="تعلم أساسيات HTML و PHP و JavaScript الضرورية لفهم تطبيقات الويب و اختبار اختراقها ."
       />
       <section className="py-16">
