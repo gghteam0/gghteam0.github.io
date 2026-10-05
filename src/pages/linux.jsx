@@ -9,7 +9,7 @@ const linuxSections = [
 
 const webSections = [
   { title: 'البرمجة لاختبار اختراق الويب', description: 'تعلم الأساسيات الضرورية لاختبار اختراق الويب .', link: '/roadmap/web-programming-basics', icon: 'Code' },
-  { title: 'مصادر تعلم اختبار اختراق الويب', description: 'قنوات و دورات متخصصة في تعليم اختبار اختراق تطبيقات الويب .', link: '/roadmap/web-pentest-resources', icon: 'Book' },
+  { title: 'مصادر تعلم اختبار اختراق الويب', description: 'تعليم اختبار اختراق تطبيقات الويب .', link: '/roadmap/web-pentest-resources', icon: 'Book' },
 ]
 
 export function LinuxMain() {
