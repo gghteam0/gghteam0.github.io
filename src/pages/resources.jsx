@@ -17,7 +17,7 @@ export function Websites() {
           <SectionHead title="المواقع المميزة" subtitle="استكشف هذه المصادر القيمة لتطوير مهاراتك ." glowColor="green" />
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
             {sites.map((s, i) => (
-              <SiteCard key={s.link} {...s} delay={i} className={i === sites.length - 1 && sites.length % 3 === 1 ? 'lg:col-start-2' : ''} />
+              <SiteCard key={s.link} {...s} delay={i} className={i === sites.length - 1 ? (sites.length % 3 === 1 ? 'lg:col-start-2' : sites.length % 3 === 2 ? 'lg:col-start-3' : '') : ''} />
             ))}
           </div>
         </div>
