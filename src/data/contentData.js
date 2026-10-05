@@ -86,15 +86,10 @@ export const malwareCourses = [
 ]
 
 export const websitesResources = [
-  { title: "HackTricks", description: "موسوعة شاملة لتقنيات القرصنة و الاختراق مع شروحات تفصيلية .", link: "https://book.hacktricks.xyz/", category: "موارد تعليمية", color: "#f61900" },
   { title: "OWASP", description: "مشروع مفتوح المصدر لأمن تطبيقات الويب مع أدلة و أدوات مجانية .", link: "https://owasp.org/", category: "أمن الويب", color: "#0998ff" },
-  { title: "PayloadsAllTheThings", description: "مجموعة ضخمة من الـ Payloads المفيدة لاختبار الاختراق .", link: "https://github.com/swisskyrepo/PayloadsAllTheThings", category: "موارد تعليمية", color: "#FFFFFF" },
   { title: "Exploit Database", description: "قاعدة بيانات للثغرات الأمنية و الأدوات المستخدمة في الاستغلال .", link: "https://www.exploit-db.com/", category: "قواعد بيانات", color: "#ec5e10" },
-  { title: "CVE Details", description: "قاعدة بيانات للثغرات الأمنية المعروفة و الموثقة .", link: "https://www.cvedetails.com/", category: "قواعد بيانات", color: "#1163ea" },
   { title: "GTFOBins", description: "قائمة بالأوامر التي يمكن استغلالها في نظام Unix / Linux", link: "https://gtfobins.github.io/", category: "أدوات Linux", color: "#bf0707" },
   { title: "CyberChef", description: "أداة ويب لتحليل و فك تشفير البيانات .", link: "https://gchq.github.io/CyberChef/", category: "أدوات تحليل", color: "#E0E0E0" },
-  { title: "CrackStation", description: "أداة مجانية لفك تشفير الهاشات باستخدام قواعد بيانات ضخمة .", link: "https://crackstation.net/", category: "أدوات تحليل", color: "#C0C0C0" },
-  { title: "Pentester Lab", description: "دروس عملية و مختبرات لتعلم اختبار الاختراق .", link: "https://pentesterlab.com/", category: "موارد تعليمية", color: "#ebff00" },
   { title: "Awesome Hacking", description: "قائمة منسقة بأفضل الموارد في مجال الأمن السيبراني .", link: "https://github.com/Hack-with-Github/Awesome-Hacking", category: "موارد تعليمية", color: "#FFFFFF" },
   { title: "منتدى شبكة شل العربية", description: "منتدى عربي للدراسة و لتبادل خبرات الأمن السيبراني و يجمع خبرات كبيرة", link: "https://sh3ll.cloud/xf2/", category: "منتدى", color: "#cc1515" },
 ]
