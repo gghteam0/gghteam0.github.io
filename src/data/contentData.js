@@ -72,8 +72,8 @@ export const webPentestResources = [
 ]
 
 export const webBasicsCourses = [
-  { title: "دورة JavaScript - المهندس أسامة الزيرو", description: "دورة أساسيات JavaScript لبناء صفحات الويب - الخطوة الأولى في فهم بنية المواقع .", link: "https://www.youtube.com/watch?v=GM6dQBmc-Xg&list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv", type: "سلسلة يوتيوب" },
   { title: "دورة HTML - المهندس أسامة الزيرو", description: "دورة أساسيات HTML للتفاعل مع صفحات الويب و فهم البرمجة النصية .", link: "https://www.youtube.com/watch?v=6QAELgirvjs&list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji", type: "سلسلة يوتيوب" },
+  { title: "دورة JavaScript - المهندس أسامة الزيرو", description: "دورة أساسيات JavaScript لبناء صفحات الويب - الخطوة الأولى في فهم بنية المواقع .", link: "https://www.youtube.com/watch?v=GM6dQBmc-Xg&list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv", type: "سلسلة يوتيوب" },
   { title: "دورة PHP - المهندس أسامة الزيرو", description: "دورة أساسيات PHP لبرمجة الخوادم و فهم الجانب الخلفي للمواقع .", link: "https://www.youtube.com/watch?v=xcg9qq6SZ0w&list=PLDoPjvoNmBAy41u35AqJUrI-H83DObUDq", type: "سلسلة يوتيوب" },
 ]
 
