@@ -68,7 +68,6 @@ export const pentestCourses = [
 export const webPentestResources = [
   { title: "قناة ArabSecLab", description: "قناة عربية متخصصة في تعليم اختبار اختراق الويب ،", link: "https://www.youtube.com/@Arabseclab", type: "قناة يوتيوب" },
   { title: "كورس اختبار اختراق الويب للمهندس ابراهيم حجازي", description: "كورس لتعلم اساسيات اختبار اختراق الويب .", link: "https://www.youtube.com/watch?v=BjfCWSFmIFI&list=PLFp3U4AOU6ACPUGth26yLFOMNIVuE67u4", type: "سلسلة يوتيوب" },
-  { title: "كورس أساسيات اختبار اختراق الويب - تكناوي دوت نت", description: "كورس أساسيات اختبار اختراق الويب للمبتدئين .", link: "https://www.youtube.com/watch?v=clLoyQeEVUw&list=PLroS9tRyoUGpAJPAgygxEP9imIZpkxFMi", type: "سلسلة يوتيوب" },
 ]
 
 export const webBasicsCourses = [

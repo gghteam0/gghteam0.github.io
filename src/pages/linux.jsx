@@ -153,7 +153,9 @@ export function WebPentestResources() {
           <SectionHead title="المصادر التعليمية" subtitle="أفضل القنوات و الدورات العربية لتعلم الـ Web Pentesting ." glowColor="purple" />
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {webPentestResources.map((c, i) => (
-              <VideoCard key={c.link} {...c} btnLabel="زيارة القناة" delay={i} />
+              <div key={c.link} className={i === 1 && webPentestResources.length === 2 ? 'lg:col-start-3' : ''}>
+                <VideoCard {...c} btnLabel="زيارة القناة" delay={i} />
+              </div>
             ))}
           </div>
         </div>
