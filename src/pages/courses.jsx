@@ -130,7 +130,7 @@ export function ActiveDirectory() {
 }
 
 const malwareSections = [
-  { title: 'البرمجيات الخبيثة', description: 'دورات تحليل البرمجيات الخبيثة و الهندسة العكسية .', link: '/roadmap/malware-analysis/courses', icon: 'Bug' },
+  { title: 'مركز عمليات الأمان', description: 'دورات لمركز عمليات الأمان ( SOC ) .', link: '/roadmap/malware-analysis/courses', icon: 'Radar' },
 ]
 
 export function MalwareAnalysis() {
