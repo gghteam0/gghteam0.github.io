@@ -155,12 +155,12 @@ export function MalwareAnalysis() {
 export function MalwareCourses() {
   return (
     <CoursePage
-      badge="البرمجيات الخبيثة"
-      badgeIcon="Bug"
-      title="تحليل البرمجيات الخبيثة"
-      desc="دورات عربية لتعلم تحليل البرمجيات الخبيثة و الهندسة العكسية ."
+      badge="مركز عمليات الأمان"
+      badgeIcon="Radar"
+      title="مركز عمليات الأمان"
+      desc="دورات عربية لتعلم مركز عمليات الأمان ( SOC ) ."
       sectionTitle="الدورات"
-      sectionSubtitle="كورسات متخصصة في تحليل البرمجيات الخبيثة ."
+      sectionSubtitle="كورسات متخصصة في مركز عمليات الأمان ."
       items={malwareCourses}
       btnLabel="مشاهدة الدورة"
     />

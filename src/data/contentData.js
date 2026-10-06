@@ -81,7 +81,7 @@ export const adCourses = [
 ]
 
 export const malwareCourses = [
-  { title: "كورس Malware Analysis - المهندس إسلام عباس", description: "كورس شامل لتعلم تحليل البرمجيات الخبيثة و الهندسة العكسية باللغة العربية .", link: "https://www.youtube.com/watch?v=6P8N7VW21MQ&list=PLgKWvRMsdLZ4N_okwVWqB6cgqeVQtZNC4", type: "سلسلة يوتيوب" },
+  { title: "أساسيات الـ SOC - من Security Jordan", description: "كورس شامل لتعلم مركز عمليات الأمان باللغة العربية .", link: "https://youtu.be/mfiqpP3cE9Y?si=A6nyZDU6rfrjf4GV", type: "سلسلة يوتيوب" },
 ]
 
 export const websitesResources = [
