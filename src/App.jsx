@@ -47,7 +47,8 @@ export default function App() {
           <Route path="/roadmap/web-programming-basics" element={<WebProgrammingBasics />} />
           <Route path="/roadmap/active-directory" element={<ActiveDirectory />} />
           <Route path="/roadmap/malware-analysis" element={<MalwareAnalysis />} />
-          <Route path="/roadmap/malware-analysis/courses" element={<MalwareCourses />} />
+          <Route path="/roadmap/soc/courses" element={<MalwareCourses />} />
+          <Route path="/roadmap/malware-analysis/courses" element={<Navigate to="/roadmap/soc/courses" replace />} />
           <Route path="/practical-labs" element={<PracticalLabs />} />
           <Route path="/tools" element={<Tools />} />
           <Route path="/tools/:id" element={<ToolsDetail />} />

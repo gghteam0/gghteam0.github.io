@@ -130,7 +130,7 @@ export function ActiveDirectory() {
 }
 
 const malwareSections = [
-  { title: 'مركز عمليات الأمان', description: 'دورات لمركز عمليات الأمان ( SOC ) .', link: '/roadmap/malware-analysis/courses', icon: 'Radar' },
+  { title: 'مركز عمليات الأمان', description: 'دورات لمركز عمليات الأمان ( SOC ) .', link: '/roadmap/soc/courses', icon: 'Radar' },
 ]
 
 export function MalwareAnalysis() {
