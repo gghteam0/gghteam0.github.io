@@ -81,7 +81,7 @@ export const adCourses = [
 ]
 
 export const malwareCourses = [
-  { title: "أساسيات مركز عمليات الأمان ( SOC )", description: "كورس شامل لتعلم مركز عمليات الأمان .", link: "https://youtu.be/mfiqpP3cE9Y?si=A6nyZDU6rfrjf4GV", type: "سلسلة يوتيوب" },
+  { title: "أساسيات مركز عمليات الأمان", description: "كورس شامل لتعلم مركز عمليات الأمان .", link: "https://youtu.be/mfiqpP3cE9Y?si=A6nyZDU6rfrjf4GV", type: "سلسلة يوتيوب" },
 ]
 
 export const websitesResources = [
